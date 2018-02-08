@@ -1,0 +1,20 @@
+{
+  "name": "yara",
+  "version": "0.0.1",
+  "description": "Young Adult Reader Advisory bot",
+  "main": "index.js",
+  "dependencies": {
+    "botpress": "^0.2.5",
+    "botpress-messenger": "^2.2.10",
+    "botpress-rivescript": "^2.0.7",
+    "react": "^16.2.0",
+    "rivescript": "^1.18.0",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "scripts": {
+    "start": "botpress start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mbabaian",
+  "license": "Botpress Proprietary License"
+}
