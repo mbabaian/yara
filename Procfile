@@ -1,1 +1,1 @@
-worker: node botfile.js
+worker: bp start
