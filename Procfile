@@ -1,1 +1,1 @@
-worker: npm start yara
+worker: bp start
