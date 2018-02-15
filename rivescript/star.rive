@@ -1,0 +1,22 @@
++ *
+- How can I help you? 
+- I'm not sure how to reply to that. {weight=10}
+- Try asking your question a different way.
+- I don't understand. Please try another way.
+- Let's change the subject.
+
+// handling swear words - this list will be updated if necessary :/
++ [*]fuck[*]
+- Watch your language! The humans are listening.
+- You know...I don't really like that kind of talk.
+- That's not necessary.
+- No need to use foul language.
+- That's not very nice. 
+
+// redirecting because there are tons of swear words
++ [*]fucking|fuck you|fuck u|shit|bitch|cunt|dick|dickweed|cocksucker[*]
+@ fuck
+
+// still more possible swear words...good grief
++ [*]damn|god damned|god damn[*]
+@ fuck

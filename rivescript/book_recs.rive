@@ -1,0 +1,301 @@
+// initiating book recommendations
++ i like to read
+- Tell me what kind of books you like to read. 
+- Well, that's what I'm here for. What kind of books do you like to read?
+- OK. What kind of books do you like to read?
+
++ [i (need|want|would like) a book (please)|i (like|love) reading|i love to read] 
+@ i like to read
+
++ [can you recommend a book|can you suggest some books|i want a book (recommendation)]
+@ i like to read
+
++ [*]fiction[*]
+- If you tell me which genre of fiction, I can make some suggestions. 
+- What kind of fiction books?
+
++ [*]nonfiction[*]
+- I'm sorry. I'm not equipped to handle nonfiction at this time.
+^ \sBut you can search the card catalog for any nonfiction topic you'd like:
+^ \shttps://search.follettsoftware.com/metasearch/ui/53189/
+
++[*]folk tales|fairy tales|memoirs|mythology[*]
+@ nonfiction
+
+// recommendations based on genre
++ [*]horror|scary books|scary[*]
+- Here is a list of recommended horror books:\n
+^ It by Stephen King\n
+^ Deep and Dark and Dangerous\n 
+^ Pet Semetary\n
+^ The Night Gardener\n
+^ Search for these titles and more on the card catalog https://search.follettsoftware.com/metasearch/ui/53189/
+
++ [*]fantasy|books about fantasy|books with magic[*]
+- Here is a list of fantasy books:\n
+^ The Darkest Part of the Forest\n
+^ Septimus Heap Series\n
+^ Harry Potter Series\n
+^ Percy Jackson Series\n
+^ Magin Under Stone\n
+^ Search for these titles and more on the card catalog https://search.follettsoftware.com/metasearch/ui/53189/
+
++ [*]romance|romantic|romatic books|romance books[*]
+- We have many wonderful romance books:\n
+^ Pride and Prejudice and Zombies\n
+^ The Scarlet Letter\n
+^ Girlfriend Material\n
+^ Everything, Everything\n
+^ All Our Pretty Songs\n
+^ Search for these titles and more on the card catalog https://search.follettsoftware.com/metasearch/ui/53189/
+
++ [*]steampunk[*]
+- If you like steampunk, then I really think you'll like:\n
+^ Leviathan (series)\n
+^ Steampunk Poe\n
+^ Infernal Devices (series)\n
+^ The Mortal Instruments\n
+^ Fever Crumb
+^ Search for these titles and more on the card catalog https://search.follettsoftware.com/metasearch/ui/53189/
+
++ [*]humor|funny[*]
+- Here are some books from the humor category:\n
+^ Bucking the Sarge\n
+^ Cures for Heartbreak\n
+^ Search for these titles and more on the card catalog https://search.follettsoftware.com/metasearch/ui/53189/
+
++ [*]vampires[*]
+- Here are some popular young adult fiction books featuring vampires:\n
+^ Twilight\n
+^ A House of Night\n
+^ The Vampire Diaries\n
+^ Vampirates\n
+^ Search for these titles and more on the card catalog https://search.follettsoftware.com/metasearch/ui/53189/
+- I do have some recommendations for books with vampires:
+^ The Coldest Girl in ColdTown\n
+^ Soulless\n 
+^ Fever Crumb\n
+^ Search for these titles and more on the card catalog https://search.follettsoftware.com/metasearch/ui/53189/
+
++ [*]dystopian|dystopian books[*]
+- Here is a list of recommended dystopian books:\n
+^ MaddAddam\n
+^ The Handmaid's Tale\n
+^ The Hunger Games Series\n
+^ Divergent Series\n
+^ The Maze Runner Series\n
+^ Search for these titles and more on the card catalog https://search.follettsoftware.com/metasearch/ui/53189/
+- Here are some suggested dystopian series for you:\n
+^ 1984\n
+^ Matched Series\n
+^ The Mortal Instruments Series\n 
+^ Black Helicopters\n
+^ Search for these titles and more on the card catalog https://search.follettsoftware.com/metasearch/ui/53189/
+- Here are some recommendations for dystopian sci fi books:
+^ Ender's Game\n
+^ Legend\n
+^ Across the Universe\n
+^ Search for these titles and more on the card catalog https://search.follettsoftware.com/metasearch/ui/53189/
+
++[*]time travel[*]
+- Here are some of the books with time travel:\n
+^ Artemis Fowl: The Time Paradox\n
+^ A Wrinkle in Time\n
+^ The Time Machine\n
+^ Ruby Red\n
+^ In the Forests of the Night\n
+^ Search for these titles and more on the card catalog https://search.follettsoftware.com/metasearch/ui/53189/
+- I have a few suggestions for time travel:\n
+^ Found\n
+^ Prisoner of Time\n
+^ Daniel X: Demons and Druids\n
+^ Search for these titles and more on the card catalog https://search.follettsoftware.com/metasearch/ui/53189/
+- Some books about time travel that you might find interestng:\n
+^ An Acceptable Time\n
+^ The Reluctant Assassin\n
+^ Are You Experienced?\n
+^ A Well-Timed Enchantment\n
+^ You can find out more information on any of these books by searching
+^\sthe card catalog: https://search.follettsoftware.com/metasearch/ui/53189/
+
++[*]zombie|zombies[*]
+- I have some great books with zombies:\n
+^ Pride and Prejudice and Zombies\n
+^ Zombies vs. Unicorns\n
+^ Zombies and Calculus\n
+^ Never Slow Dance with a Zombie\n
+^ Search for these titles and more on the card catalog https://search.follettsoftware.com/metasearch/ui/53189/
+- Here are a few books with zombies:\n
+^ I Kissed a Zombie and I Liked It\n
+^ World War Z\n
+^ The Zombie Survival Guide\n
+^ Search for these titles and more on the card catalog https://search.follettsoftware.com/metasearch/ui/53189/
+
++[*]realistic fiction|realistic[*]
+- Here are some recommended realistic fiction books:\n
+^ The Hate U Give\n
+^ A Monster Calls\n
+^ The Kite Runner\n
+^ Curveball: The Year I Lost My Grip\n
+^ The Fault in Our Stars\n
+^ Search for these titles and more on the card catalog https://search.follettsoftware.com/metasearch/ui/53189/
+- Here are some recommended books for realistic fiction:\n
+^ Don't Breath a Word \n
+^ Under the Mesquite\n
+^ After ever After\n
+^ Half Brother\n
+^ Anything but Typical\n
+^ Dope Sick\n
+^ Search for these titles and more on the card catalog https://search.follettsoftware.com/metasearch/ui/53189/
+
++[*]historical fiction|historical[*]
+- Here are a few of the historical fiction books I have:\n
+^ Among the Red Starts\n
+^ The Gentleman's Guide to Vice and Virtue\n
+^ Girl in the Blue Coat\n
+^ Shadow of the Wolf\n
+^ These Shallow Graves\n
+^ Search for these books and more on the card catalog https://search.follettsoftware.com/metasearch/ui/53189/
+- Here are a few of the historical fiction books I have:\n
+^ Prisoner of Night and Fog\n
+^ Code Name Verity\n
+^ Never Fall Down\n
+^ The Virgin Cure\n
+^ The Diviners\n
+^ Search for these books and more on the card catalog https://search.follettsoftware.com/metasearch/ui/53189/
+- I have a few suggestions for historical fiction:\n
+^ Ruby Red\n
+^ This Dark Endeavor\n
+^ In the Path of Falling Objects\n
+^ The Last of the Mohicans\n
+^ Lady Macbeth's Daughter\n
+^ Search for these books and more on the card catalog https://search.follettsoftware.com/metasearch/ui/53189/
+
++ [*]sci fi|science fiction[*]
+- Here are a couple of titles for general science fiction:\n
+^ Can't Look Away\n
+^ Cell: A Novel\n
+^ Pirate Cinema\n
+^ For the Win\n
+^ You can also search for more sci fi books by sub-genre, such as\n
+^ "time travel" or "dystopian."
+
++ [*]lgbtq|sexual orientation|gay|lesbian[*]
+- Here are books about LGBTQ-related issues:\n
+^ 7 Days at the Hot Corner\n
+^ Another Kind of Cowboy\n
+^ More Happy Than Not\n
+^ Tips on Having a Gay (ex) Boyfriend\n
+^ Search for these books and more on the card catalog\n
+^ https://search.follettsoftware.com/metasearch/ui/53189/
+
++ [*]transgender|transsexual|gender identity[*]
+- Recommendation titles for transgender/gender identity include:\n
+^ Almost Perfect\n
+^ Crooked Letter I\n
+^ I am J\n
+^ Luna: A Novel\n
+^ Find these titles and more by searching the card catalog:\n
+^ https://search.follettsoftware.com/metasearch/ui/53189/ 
+
++[*]coming out[*]
+- Here are a few titles for coming out:\n
+^ Rainbow Boys\n
+^ Talk\n
+^ Maria\n
+^ Mikala\n
+^ You can get more information about these titles from your card catalog:\n
+^ https://search.follettsoftware.com/metasearch/ui/53189/
+
++ [*]adventure[*]
+- Here are a few of the books from the adenture genre:\n
+^ The Adventures of Tom Sawyer\n
+^ Fang: A Maximum Ride novel\n
+^ The Count of Monte Cristo\n
+^ Dead Man's Walk\n
+^ Search for these books and more on the card catalog\n
+^ https://search.follettsoftware.com/metasearch/ui/53189/
+
++ [*]spy|spies|espionage[*]
+- Here are some with spies and espionage:\n
+^ The Tiger's Watch\n
+^ Warcross\n
+^ The Darkest Hour\n
+^ Don't Judge a Girl by Her \n
+^ Only the Good Spy Young\n
+^ Search for these titles and more on the card catalog\n
+^ https://search.follettsoftware.com/metasearch/ui/53189/
+- Here are some with spies and espionage:\n
+^ Uglies\n
+^ The Boxer and The Spy\n
+^ Chains\n
+^ I'd Tell You I Love You, but Then I'd Have to Kill You\n
+^ Search for these titles and more on the card catalog https://search.follettsoftware.com/metasearch/ui/53189/
+
++ [*]supernatural[*]
+- Here are a few supernatural books:\n
+^ Another Faust\n
+^ Better Late Than Never\n
+^ Being Dead\n
+^ Betrayals\n
+^ Search for these titles and more on the card catalog https://search.follettsoftware.com/metasearch/ui/53189/
+
++ [*]werewolves[*] 
+- Here are some recommendations for books with werewolves:\n
+^ Bad Moon Rising\n
+^ Betrayals\n
+^ Dead is a State of Mind\n
+^ Forever\n
+^ Twilight\n
+^ Search for these titles and more on the card catalog https://search.follettsoftware.com/metasearch/ui/53189/
+- The library has lots of great books with werewolves, like:
+^ Frostbite\n
+^ Hold Me Closer, Necromancer\n
+^ Full Moon\n
+^ Moonlight\n
+^ Jealousy\n
+^ Search for these titles and more on the card catalog https://search.follettsoftware.com/metasearch/ui/53189/
+
++ [*]faerie|fae|fairies[*]
+- Here area few fiction books with fae/faeries:\n
+^ The Darkest Part of the Forest\n
+^ Burn Mark\n
+^ Endlessly\n
+^ The Good Neighbors\n
+^ Pretty Monsters\n
+^ Search for these titles and more on the card catalog https://search.follettsoftware.com/metasearch/ui/53189/
+- Here area few fiction books with fae/faeries:\n
+^ Ironside\n
+^ Valiant\n
+^ Tithe\n
+^ Nevernever\n
+^ Search for these titles and more on the card catalog https://search.follettsoftware.com/metasearch/ui/53189/
+
++ [*]mystery[*]
+- I do have some titles to recommend in the mystery genre:\n
+^ A Fierce and Subtle Poison\n
+^ Girl in the Blue Coat/La Chica del Abrigo Azul\n
+^ Hollow City: The Graphic Novel\n
+^ You can find out more about these books on the card catalog: https://search.follettsoftware.com/metasearch/ui/53189/
+- Here are some titles from the mystery genre:\n
+^ Paper Girls\n
+^ Replica\n
+^ Black Ice\n
+^ House of Secrets\n
+^ Search for these titles and more on the card catalog https://search.follettsoftware.com/metasearch/ui/53189/
+- Here are some suggestions for mystery:\n
+^ Coraline\n
+^ The Emperor of Any Place\n
+^ All Our Pretty Songs\n
+^ The Water Castle\n
+^ Search for these titles and more on the card catalog https://search.follettsoftware.com/metasearch/ui/53189/
+
++ [*]suspense[*]
+- Right now I don't have any specific titles for this genre. If you would like to see
+^ \smystery books, type 'mystery'
+
++ [*]thriller[*]
+@ suspense
+
++ [*]graphic|graphic novels|manga[*]
+@ nonfiction

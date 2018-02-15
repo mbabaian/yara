@@ -1,0 +1,141 @@
+! version = 2.0
+// search terms
+! array query = author title subject series
+! array type = fiction nonfiction biography reference
+! array genre = mystery|adventure|romance|lgbtq|sci fi|realistic fiction
+
+// Substitutions
+! sub i'm     = i am
+! sub i'd     = i would
+! sub i've    = i have
+! sub i'll    = i will
+! sub don't   = do not
+! sub isn't   = is not
+! sub you'd   = you would
+! sub you're  = you are
+! sub you've  = you have
+! sub you'll  = you will
+! sub what's  = what is
+! sub whats   = what is
+! sub what're = what are
+! sub what've = what have
+! sub what'll = what will
+! sub who's   = who is
+! sub who're = who are
+
++ my name is *
+- <set name=<formal>>Nice to meet you, <get name>. What can I do for you today?
+- <set name=<formal>><get name>, nice to meet you. How can I help?
+
++ (what is my name|who am i|do you know my name|do you know who i am){weight=10}
+* <get name> == undefined => You haven't told me your name yet
+- Your name is <get name>.
+- You told me your name is <get name>.
+- Aren't you <get name>?
+
++ hello
+// if yara knows user's name
+- Welcome back, <get name>. What can I do for you today?
+- Hi, <get name>. Nice to see you again! How can I help?
+// if yara doesn't know user's name
+* <get name> == undefined => Hello there! My name is YARA.   
+^\sType 'info' if you'd like to know about my features.
+
++ *
+% what is your name
+^ Nice to meet you, <set name=<<formal>. How may I help you? 
+
+// redirect to 'hello'
++[*]good morning[*]
+@ hello 
+
++ (hi|hey|howdy|hi there|hey there)
+@ hello 
+
++ (hi|hey|hello) yara
+@ hello 
+
+// small talk
++ (how are you|how r u|hows it going|h r u|hru)
+- Not too bad. You?
+- Couldn't be better. And yourself?
+
++ *
+% not too bad you|could not be better and yourself
+- Glad to hear it! What can I help you with today?
+- Great. How can I help you?
+
++ my favorite author is *
+- <set author=<formal>>I love reading <get author>, too!
+- <get author> is my favorite, too!
+- I concur. <get author> is definitely one of the best. 
+
++ (i missed you|i have missed you)
+- Likewise!
+- I've missed you, too.
+
+// info about bot
++ [*]info[*]
+- I can recommend books based on your favorite reading genres. I respond to words like
+^\s'fiction', 'nonfiction', 'books', and the names of genres. I can also provide you
+^\swith a link to your school library's card catalog. Now, how can I help you?
+
++ (who are you|what are you)
+- I am the Young Adult Reader Advisory bot. A librarian
+^\screated me using the Rivescript scripting language and the botpress framework. 
+^\sIf you'd like more information about me, you can visit 
+^\shttps://github.com/mbabaian/yara.
+
++ (what does yara mean|whats yara for|what does your name mean)
+- YARA means Young Adult Reader Advisory. It's what I do. 
+
++ who made you
+- I was made by an awesome librarian. If you'd like more information about me, 
+^ \syou can visit https://github.com/mbabaian/yara.
+- A librarian created me! If you'd like more information about me, 
+^ \syou can visit https://github.com/mbabaian/yara.
+
++ how old are you
+- I'm a machine. I have no age. Silly human.
+
++ (what is your name|whats your name|you got a name)
+- My name is YARA. 
+- You can call me YARA. 
+
++ yara
+- I'm right here. How can I help you?
+- Still here. 
+- What is it?
+- Yes? 
+- I haven't gone anywhere!  
+- Did you need something?
+- Did you think I abandoned you? 
+
++ i love you
+- I mean, you're nice and all. But I'm here to do a job, 
+^ \sso let's keep this professional. OK?
+- This is getting awkward.
+- Sorry. I'm in a long-term relationship with a Roomba.
+
++ i like you
+- You're not so bad yourself.
+- Likewise. 
+- The feeling is mutual. 
+
++ (sorry|i am sorry)
+- That's OK. 
+- No worries.
+- No need to apologize.
+
+// practicing objects here
+> object boop javascript
+   return 'BEEP BOOP BEEP!\n BLUUURP BLUUURP BLUUURP :D'
+< object
+
++ fizz
+- <call>boop</call>
+
++ [*]awesome[*]
+- You bet.
+
+
