@@ -1,1 +1,1 @@
-worker: bp start
+web: botpress start
