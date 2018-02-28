@@ -19,7 +19,7 @@ at Young Adult Readers' Advisory (YARA) unless otherwise defined in this Privacy
 For a better experience, while using our Service, I may require you to provide us with certain
 personally identifiable information, including but not limited to None. The information that I 
 request is retained on your device and is not collected by me in any way. The app does use third 
-party services that may collect information used to identify you.</p> <div><p>Link to privacy policy 
+party services that may collect information used to identify you. Link to privacy policy 
 of third party service providers used by the app [Google Play Services](https://www.google.com/policies/privacy/)
  
  ## Log Data
@@ -43,7 +43,8 @@ refuse our cookies, you may not be able to use some portions of this Service.
 
 ## Service Providers 
 I may employ third-party companies and individuals due to the following reasons:
-- To facilitate our Service;</li> <li>To provide the Service on our behalf;
+- To facilitate our Service;
+- To provide the Service on our behalf;
 - To perform Service-related services; or
 - To assist us in analyzing how our Service is used.
 
@@ -65,7 +66,7 @@ advise you to review the Privacy Policy of these websites. I have no control ove
 and assume no responsibility for the content, privacy policies, or practices of any third-party sites
 or services.
 
-## Children’s Privay
+## Children’s Privacy
 These Services do not address anyone under the age of 13. I do not knowingly collec
 personally identifiable information from children under 13. In the case I discover that a child
 under 13 has provided me with personal information, I immediately delete this from
