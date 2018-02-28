@@ -38,12 +38,11 @@
 - Welcome back, <get name>. What can I do for you today?
 - Hi, <get name>. Nice to see you again! How can I help?
 // if yara doesn't know user's name
-* <get name> == undefined => Hello there! My name is YARA.   
-^\sType 'info' if you'd like to know about my features.
+* <get name> == undefined => Hello there! How can I help?
 
 + *
 % what is your name
-^ Nice to meet you, <set name=<<formal>. How may I help you? 
+^ Nice to meet you, <set name=<<formal>. How may I help you? Type 'info' if you'd like to know about my features. 
 
 // redirect to 'hello'
 +[*]good morning[*]
@@ -77,8 +76,13 @@
 // info about bot
 + [*]info[*]
 - I can recommend books based on your favorite reading genres. I respond to words like
-^\s'fiction', 'nonfiction', 'books', and the names of genres. I can also provide you
-^\swith a link to your school library's card catalog. Now, how can I help you?
+^\s'fiction', 'nonfiction', 'books', and the names of certain genres. I can also provide you
+^\swith a link to your school library's card catalog. A more detailed explanation is
+^\savailable here https://github.com/mbabaian/yara.\n
+^\sNow, how can I help you :)
+
++ help
+@ info 
 
 + (who are you|what are you)
 - I am the Young Adult Reader Advisory bot. A librarian

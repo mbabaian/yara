@@ -1,13 +1,13 @@
 // initiating book recommendations
-+ i like to read
++ (i like to read|i love to read)
 - Tell me what kind of books you like to read. 
 - Well, that's what I'm here for. What kind of books do you like to read?
 - OK. What kind of books do you like to read?
 
-+ [i (need|want|would like) a book (please)|i (like|love) reading|i love to read] 
++ (i want a book|i need a book|i would like a book)
 @ i like to read
 
-+ [can you recommend a book|can you suggest some books|i want a book (recommendation)]
++ (can you recommend a book|can you suggest some books|i want a book (recommendation))
 @ i like to read
 
 + [*]fiction[*]
@@ -55,7 +55,7 @@
 ^ Steampunk Poe\n
 ^ Infernal Devices (series)\n
 ^ The Mortal Instruments\n
-^ Fever Crumb
+^ Fever Crumb\n
 ^ Search for these titles and more on the card catalog https://search.follettsoftware.com/metasearch/ui/53189/
 
 + [*]humor|funny[*]
@@ -64,7 +64,7 @@
 ^ Cures for Heartbreak\n
 ^ Search for these titles and more on the card catalog https://search.follettsoftware.com/metasearch/ui/53189/
 
-+ [*]vampires[*]
++ [*]vampire|vampires[*]
 - Here are some popular young adult fiction books featuring vampires:\n
 ^ Twilight\n
 ^ A House of Night\n
@@ -91,7 +91,7 @@
 ^ The Mortal Instruments Series\n 
 ^ Black Helicopters\n
 ^ Search for these titles and more on the card catalog https://search.follettsoftware.com/metasearch/ui/53189/
-- Here are some recommendations for dystopian sci fi books:
+- Here are some recommendations for dystopian sci fi books:\n
 ^ Ender's Game\n
 ^ Legend\n
 ^ Across the Universe\n
@@ -172,7 +172,7 @@
 ^ Search for these books and more on the card catalog https://search.follettsoftware.com/metasearch/ui/53189/
 
 + [*]sci fi|science fiction[*]
-- Here are a couple of titles for general science fiction:\n
+- Here are some titles for general science fiction:\n
 ^ Can't Look Away\n
 ^ Cell: A Novel\n
 ^ Pirate Cinema\n
@@ -248,7 +248,7 @@
 ^ Forever\n
 ^ Twilight\n
 ^ Search for these titles and more on the card catalog https://search.follettsoftware.com/metasearch/ui/53189/
-- The library has lots of great books with werewolves, like:
+- The library has lots of great books with werewolves, like:\n
 ^ Frostbite\n
 ^ Hold Me Closer, Necromancer\n
 ^ Full Moon\n

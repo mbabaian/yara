@@ -1,8 +1,0 @@
-helloBloc:
-  - text: Hello  !
-
-sayAge:
-  - text: Wow!  is pretty old!
-
-byeBloc:
-  - text: Goodbye,  :)
