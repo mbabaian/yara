@@ -43,3 +43,8 @@ jspm_packages
 # Output of 'npm pack'
 *.tgz
 
+.env
+content.yml
+secret.key
+db.sqlite
+botpress-messenger.config.yml
