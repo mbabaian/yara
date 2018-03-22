@@ -66,7 +66,7 @@ Currently, YARA does not have a nonfiction category. If the patron states a pref
 ---
 
 ### Fun Stuff
-Try the following phrases with YARA:
+Try one of the following phrases with YARA:
  
 "My name is ________". 
 
@@ -82,9 +82,14 @@ Try the following phrases with YARA:
 
 "I love books."
 
+"Do you have any books with vampires?"
+
+"Can you recommend some sci fi books?"
+
 "Thank you."
 
 "Goodbye."
+
 
 Librarians are encouraged to customize YARA to match their specific collections and meet the needs of their students and teachers. 
 
