@@ -12,7 +12,9 @@ Since this is a side project and I am not a professional developer, you may hit 
 
 In the meantime, I encourage you to adapt and use YARA to meet the needs of your library patrons.
 
-You can chat with YARA by searching for Young Adult Reader Advisory on Facebook Messenger.
+You can chat with YARA by searching for Young Adult Reader Advisory on Facebook Messenger. **Please keep in mind that YARA is stored on a free site and may take a minute to respond. Say 'hi' or 'hello', wait fifteen seconds then try again.** 
+Type 'help' for more specific instructions on how to use YARA. 
+ 
 
 ### Purpose
 I created YARA as a unique way to promote the school library program and increase circulation statistics. 
@@ -62,6 +64,27 @@ Currently, YARA does not have a nonfiction category. If the patron states a pref
 ---
 #### ⚠️ YARA should never be used to collect information about patrons or judge their reading interests or the manner in which they communicate with YARA. If this is your reason for implementing YARA in your school library, please reconsider. A good librarian knows better.
 ---
+
+### Fun Stuff
+Try the following phrases with YARA:
+ 
+"My name is ________". 
+
+"Who am I?"
+
+"Who are you?" or "Who made you?"
+
+"How are you?" or "hru?"
+
+"I love you."
+
+"I need a book." 
+
+"I love books."
+
+"Thank you."
+
+"Goodbye."
 
 Librarians are encouraged to customize YARA to match their specific collections and meet the needs of their students and teachers. 
 
