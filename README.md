@@ -61,9 +61,6 @@ Future versions will include an expanded selection of genres and titles.
 
 Currently, YARA does not have a nonfiction category. If the patron states a preference for nonfiction, YARA provides a direct link to the card catalog. If there is a demand for nonfiction, I will add it to future versions. But you are, of course, welcome to make any changes to YARA that you'd like.
 
----
-#### ⚠️ YARA should never be used to collect information about patrons or judge their reading interests or the manner in which they communicate with YARA. If this is your reason for implementing YARA in your school library, please reconsider. A good librarian knows better.
----
 
 ### Fun Stuff
 Try one of the following phrases with YARA:
@@ -90,6 +87,9 @@ Try one of the following phrases with YARA:
 
 "Goodbye."
 
+---
+#### ⚠️ YARA should never be used to collect information about patrons or judge their reading interests or the manner in which they communicate with YARA. If this is your reason for implementing YARA in your school library, please reconsider. A good librarian knows better.
+---
 
 Librarians are encouraged to customize YARA to match their specific collections and meet the needs of their students and teachers. 
 
