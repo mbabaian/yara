@@ -1,11 +1,14 @@
 # Young Adult Reader Advisory bot 🤖 
  
 
+# >> Due to Facebook's policy change regarding bots, and a couple of other things, YARA is moving to a web platform. <<
+
+
 <img src="https://github.com/mbabaian/yara/blob/master/yara_intro.gif" width="548">
 
 ### [YARA](https://www.facebook.com/Young-Adult-Reader-Advisory-163238114307197/)
 
-#### Current Version 1.0.0 
+#### Current Version 0.0.1
 YARA is an open-source bot that makes book recommedations based on a patron's reading interests. While the focus of YARA is young adult readers in high school, it can be adapted to fit the needs of any community of readers.
 
 Since this is a side project and I am not a professional developer, you may hit a few snags here and there. I welcome any comments or bug reports. Please contact me via the email listed in the Authors section at the bottom of this page or submit an Issue. 
